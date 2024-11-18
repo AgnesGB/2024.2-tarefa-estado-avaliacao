@@ -6,6 +6,7 @@
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
 - disciplina: **SO** Sistemas Operacionais, turma de 2024.2
 - professor: [Leonardo A. Minora](https://github.com/leonardo-minora)
+- aluno: [Agnes G. Barbosa](https://github.com/AgnesGB)
 
 ## Descrição inicial da tarefa
 
@@ -88,8 +89,8 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex t1 | --         | pr         | su1        | t1, t2     |
+| 12   | --    | ex linha 2 | --         | su2        | t1         |
 
 ## Tarefa 2 - fatia tempo com valor 10 ticks
 
@@ -107,5 +108,5 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex t1 | --         | pr         | su 1       | t1, t2     |
+| 12   | --    | ex linha 2 | --         | su 2       | t2         |
