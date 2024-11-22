@@ -92,7 +92,7 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 11   | ex t1 | --         | pr         | --         | --         |
 | 12   | --    | ex linha 2 | --         | --         | --         |
 | 13   | ex t2 | pr         | --         | --         | t1         |
-| 14   | --    | --         | ex linha 2 | --         | t1, t2     |
+| 14   | --    | --         | ex linha 2 | --         | t1         |
 | 15   | ex t3 | --         | pr         | --         | t1, t2     |
 | 16   | --    | --         | --         | ex linha 2 | t1, t2     |  loop do t3
 | 17   | ex t1 | --         | --         | --         | t1, t2     |  
