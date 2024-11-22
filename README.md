@@ -94,35 +94,35 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 13   | ex t2 | pr         | --         | --         | t1         |
 | 14   | --    | --         | ex linha 2 | --         | t1, t2     |
 | 15   | ex t3 | --         | pr         | --         | t1, t2     |
-| 16   | --    | --         | --         | ex linha 2 | t1, t2     |  #loop do t3
+| 16   | --    | --         | --         | ex linha 2 | t1, t2     |  loop do t3
 | 17   | ex t1 | --         | --         | --         | t1, t2     |  
-| 18   | --    | ex linha 3 | --         | --         | t2         |  #loop do t1
+| 18   | --    | ex linha 3 | --         | --         | t2         |  loop do t1
 | 19   | ex t2 | su 1       | --         | --         | t2         |
-| 20   | --    | su 2       | ex linha 3 | --         | --         |  #loop do t2
+| 20   | --    | su 2       | ex linha 3 | --         | --         |  loop do t2
 | 21   | ex t3 | pr         | su 1       | --         | t1         |
 | 22   | --    | --         | pr         | ex linha 2 | t1, t2     | 
 | 23   | ex t1 | --         | --         | --         | t1, t2     |
-| 24   | --    | ex linha 3 | --         | --         | t2         |  #loop do t1
+| 24   | --    | ex linha 3 | --         | --         | t2         |  loop do t1
 | 25   | ex t2 | su 1       | --         | --         | t2         |
-| 26   | --    | su 2       | ex linha 4 | --         | --         |  #loop do t2
+| 26   | --    | su 2       | ex linha 4 | --         | --         |  loop do t2
 | 27   | ex t3 | pr         | su 1       | --         | t1         |
-| 28   | --    | --         | pr         | ex linha 2 | t1, t2     |  #loop do t3
+| 28   | --    | --         | pr         | ex linha 2 | t1, t2     |  loop do t3
 | 29   | ex t1 | --         | --         | --         | t1, t2     |
-| 30   | --    | ex linha 3 | --         | --         | t2         |  #loop do t1
+| 30   | --    | ex linha 3 | --         | --         | t2         |  loop do t1
 | 31   | ex t2 | su 1       | --         | --         | t2         |
-| 32   | --    | su 2       | ex linha 3 | --         | --         |  #loop do t2
+| 32   | --    | su 2       | ex linha 3 | --         | --         |  loop do t2
 | 33   | ex t3 | pr         | su 1       | --         | t1         |
-| 34   | --    | --         | pr         | ex linha 2 | t1, t2     |  #loop do t3
+| 34   | --    | --         | pr         | ex linha 2 | t1, t2     |  loop do t3
 | 35   | ex t1 | --         | --         | --         | t1, t2     |
-| 36   | --    | ex linha 3 | --         | --         | t2         |  #loop do t1
+| 36   | --    | ex linha 3 | --         | --         | t2         |  loop do t1
 | 37   | ex t2 | su 1       | --         | --         | t2         |
-| 38   | --    | su 2       | ex linha 4 | --         | --         |  #loop do t2
+| 38   | --    | su 2       | ex linha 4 | --         | --         |  loop do t2
 | 39   | ex t3 | pr         | su 1       | --         | t1         |
-| 40   | --    | --         | pr         | fi         | t1, t2     |  #pronto do t3
+| 40   | --    | --         | pr         | fi         | t1, t2     |  pronto do t3
 | 41   | ex t1 | --         | --         | --         | t1, t2, t3 |
-| 42   | --    | fi         | --         | --         | t2, t3     |  #pronto do t1
+| 42   | --    | fi         | --         | --         | t2, t3     |  pronto do t1
 | 43   | ex t2 | --         | --         | --         | t2, t3     |
-| 44   | --    | --         | fi         | --         | t1, t2, t3 |  #pronto do t2
+| 44   | --    | --         | fi         | --         | t1, t2, t3 |  pronto do t2
 
 
 
@@ -142,30 +142,30 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1, t3     |
 | 10   | --    | --         | su 2       | ex linha 1 | t1, t3     |
-| 11   | --    | --         | pr         | ex linha 2 | t1, t2, t3 |  #loop do t3
-| 12   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  #loop do t3
-| 13   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  #loop do t3
-| 14   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  #loop do t3
-| 15   | --    | --         | --         | fi         | t1, t2, t3 |  #pronto do t3
+| 11   | --    | --         | pr         | ex linha 2 | t1, t2, t3 |  loop do t3
+| 12   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  loop do t3
+| 13   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  loop do t3
+| 14   | --    | --         | --         | ex linha 2 | t1, t2, t3 |  loop do t3
+| 15   | --    | --         | --         | fi         | t1, t2, t3 |  pronto do t3
 | 16   | ex t1 | --         | --         | --         | t2, t3     |
 | 17   | --    | ex linha 2 | --         | --         | t2, t3     |
 | 18   | ex t2 | pr         | --         | --         | t1, t3     |
 | 19   | --    | --         | ex linha 2 | --         | t1, t3     |
 | 20   | ex t1 | --         | pr         | --         | t1, t2, t3 |  
-| 21   | --    | ex linha 3 | --         | --         | t2, t3     |  #loop do t1
+| 21   | --    | ex linha 3 | --         | --         | t2, t3     |  loop do t1
 | 22   | ex t2 | su 1       | --         | --         | t2, t3     |
-| 23   | --    | su 2       | ex linha 3 | --         | t3         |  #loop do t2
+| 23   | --    | su 2       | ex linha 3 | --         | t3         |  loop do t2
 | 24   | ex t1 | pr         | su 1       | --         | t1, t3     |
-| 25   | --    | ex linha 3 | pr         | --         | t2, t3     |  #loop do t1
+| 25   | --    | ex linha 3 | pr         | --         | t2, t3     |  loop do t1
 | 26   | ex t2 | su 1       | --         | --         | t3         |
-| 27   | --    | su 2       | ex linha 3 | --         | t3         |  #loop do t2
+| 27   | --    | su 2       | ex linha 3 | --         | t3         |  loop do t2
 | 28   | ex t1 | pr         | su 1       | --         | t1, t3     |
-| 29   | --    | ex linha 3 | pr         | --         | t2, t3     |  #loop do t1
+| 29   | --    | ex linha 3 | pr         | --         | t2, t3     |  loop do t1
 | 30   | ex t2 | su 1       | --         | --         | t3         |
-| 31   | --    | su 2       | ex linha 3 | --         | t3         |  #loop do t2
+| 31   | --    | su 2       | ex linha 3 | --         | t3         |  loop do t2
 | 32   | ex t1 | pr         | su 1       | --         | t1, t3     |
-| 33   | --    | ex linha 3 | pr         | --         | t2, t3     |  #loop do t1
+| 33   | --    | ex linha 3 | pr         | --         | t2, t3     |  loop do t1
 | 34   | ex t2 | su 1       | --         | --         | t3         |
-| 35   | --    | su 2       | ex linha 3 | --         | t3         |  #loop do t2
-| 36   | ex t1 | fi         | su 1       | --         | t1, t3     |  #pronto do t1
-| 37   | --    | --         | fi         | --         | t1, t2, t3 |  #pronto do t2
+| 35   | --    | su 2       | ex linha 3 | --         | t3         |  loop do t2
+| 36   | ex t1 | fi         | su 1       | --         | t1, t3     |  pronto do t1
+| 37   | --    | --         | fi         | --         | t1, t2, t3 |  pronto do t2
